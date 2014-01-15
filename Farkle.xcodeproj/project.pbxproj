@@ -21,6 +21,7 @@
 		D146701E188730E3007B8AE5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1467000188730E2007B8AE5 /* UIKit.framework */; };
 		D1467026188730E3007B8AE5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D1467024188730E3007B8AE5 /* InfoPlist.strings */; };
 		D1467028188730E3007B8AE5 /* FarkleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D1467027188730E3007B8AE5 /* FarkleTests.m */; };
+		D14670331887312E007B8AE5 /* DieLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = D14670321887312E007B8AE5 /* DieLabel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,9 @@
 		D1467023188730E3007B8AE5 /* FarkleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FarkleTests-Info.plist"; sourceTree = "<group>"; };
 		D1467025188730E3007B8AE5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D1467027188730E3007B8AE5 /* FarkleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FarkleTests.m; sourceTree = "<group>"; };
+		D14670311887312E007B8AE5 /* DieLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DieLabel.h; path = ../DieLabel.h; sourceTree = "<group>"; };
+		D14670321887312E007B8AE5 /* DieLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DieLabel.m; path = ../DieLabel.m; sourceTree = "<group>"; };
+		D146703418873AB5007B8AE5 /* DieLabelDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DieLabelDelegate.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,9 +118,12 @@
 			children = (
 				D146700B188730E2007B8AE5 /* AppDelegate.h */,
 				D146700C188730E2007B8AE5 /* AppDelegate.m */,
+				D14670311887312E007B8AE5 /* DieLabel.h */,
+				D14670321887312E007B8AE5 /* DieLabel.m */,
 				D146700E188730E2007B8AE5 /* Main.storyboard */,
 				D1467011188730E2007B8AE5 /* ViewController.h */,
 				D1467012188730E2007B8AE5 /* ViewController.m */,
+				D146703418873AB5007B8AE5 /* DieLabelDelegate.h */,
 				D1467014188730E2007B8AE5 /* Images.xcassets */,
 				D1467003188730E2007B8AE5 /* Supporting Files */,
 			);
@@ -252,6 +259,7 @@
 				D1467013188730E2007B8AE5 /* ViewController.m in Sources */,
 				D146700D188730E2007B8AE5 /* AppDelegate.m in Sources */,
 				D1467009188730E2007B8AE5 /* main.m in Sources */,
+				D14670331887312E007B8AE5 /* DieLabel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
