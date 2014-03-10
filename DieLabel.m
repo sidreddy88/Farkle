@@ -9,9 +9,8 @@
 #import "DieLabel.h"
 
 
-@implementation DieLabel{
-    
-}
+@implementation DieLabel
+@synthesize delegate;
 
 - (id)initWithFrame:(CGRect)frame
 {
@@ -23,7 +22,9 @@
 }
 
 -(IBAction) labelWaTapped:(id) sender {
-    [_delegate didChooseDie:self];
+    [delegate didChooseDie:self];
+    
+   
     
 }
 - (void) roll {

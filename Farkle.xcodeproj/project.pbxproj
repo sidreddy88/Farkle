@@ -22,6 +22,7 @@
 		D1467026188730E3007B8AE5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D1467024188730E3007B8AE5 /* InfoPlist.strings */; };
 		D1467028188730E3007B8AE5 /* FarkleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D1467027188730E3007B8AE5 /* FarkleTests.m */; };
 		D14670331887312E007B8AE5 /* DieLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = D14670321887312E007B8AE5 /* DieLabel.m */; };
+		D1E5EF9B1887C35100AA1D36 /* GameResultViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1E5EF9A1887C35100AA1D36 /* GameResultViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,8 @@
 		D14670311887312E007B8AE5 /* DieLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DieLabel.h; path = ../DieLabel.h; sourceTree = "<group>"; };
 		D14670321887312E007B8AE5 /* DieLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DieLabel.m; path = ../DieLabel.m; sourceTree = "<group>"; };
 		D146703418873AB5007B8AE5 /* DieLabelDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DieLabelDelegate.h; sourceTree = "<group>"; };
+		D1E5EF991887C35100AA1D36 /* GameResultViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GameResultViewController.h; path = ../GameResultViewController.h; sourceTree = "<group>"; };
+		D1E5EF9A1887C35100AA1D36 /* GameResultViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GameResultViewController.m; path = ../GameResultViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +121,8 @@
 			children = (
 				D146700B188730E2007B8AE5 /* AppDelegate.h */,
 				D146700C188730E2007B8AE5 /* AppDelegate.m */,
+				D1E5EF991887C35100AA1D36 /* GameResultViewController.h */,
+				D1E5EF9A1887C35100AA1D36 /* GameResultViewController.m */,
 				D14670311887312E007B8AE5 /* DieLabel.h */,
 				D14670321887312E007B8AE5 /* DieLabel.m */,
 				D146700E188730E2007B8AE5 /* Main.storyboard */,
@@ -260,6 +265,7 @@
 				D146700D188730E2007B8AE5 /* AppDelegate.m in Sources */,
 				D1467009188730E2007B8AE5 /* main.m in Sources */,
 				D14670331887312E007B8AE5 /* DieLabel.m in Sources */,
+				D1E5EF9B1887C35100AA1D36 /* GameResultViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -468,6 +474,7 @@
 				D146702D188730E3007B8AE5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D146702E188730E3007B8AE5 /* Build configuration list for PBXNativeTarget "FarkleTests" */ = {
 			isa = XCConfigurationList;
@@ -476,6 +483,7 @@
 				D1467030188730E3007B8AE5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
